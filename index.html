@@ -264,9 +264,80 @@
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+
+        <!-- Title and Subtitle -->
+        <div class="row mt-5 mb-3">
+            <div class="col">
+                <div class="display-5">
+                    Acomodações
+                </div>
+                Do luxo ao econômico!
+            </div>
+        </div>
+
+        <!-- Tabs tipos de acomodações -->
+        <div class="row">
+            <dov class="col">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="luxo-tab" data-bs-toggle="tab" data-bs-target="#luxo"
+                            type="button" role="tab" aria-controls="luxo" aria-selected="true">Luxo</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="executivo-tab" data-bs-toggle="tab" data-bs-target="#executivo"
+                            type="button" role="tab" aria-controls="executivo" aria-selected="false">Executivo</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="economico-tab" data-bs-toggle="tab" data-bs-target="#economico"
+                            type="button" role="tab" aria-controls="economico" aria-selected="false">Econômico</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="luxo" role="tabpanel" aria-labelledby="luxo-tab">
+                        <!-- Title and Subtitle -->
+                        <div class="row mt-5 mb-3">
+                            <div class="col">
+                                <div class="display-6">
+                                    O máximo do luxo
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <img src="assets/room1.jpg" alt="Luxo" class="shadow rounded img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="executivo" role="tabpanel" aria-labelledby="executivo-tab">
+                        <!-- Title and Subtitle -->
+                        <div class="row mt-5 mb-3">
+                            <div class="col">
+                                <div class="display-6">
+                                    O melhor custo beneficio
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <img src="assets/room2.jpg" alt="Executivo" class="shadow rounded img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="economico" role="tabpanel" aria-labelledby="economico-tab">
+                        <!-- Title and Subtitle -->
+                        <div class="row mt-5 mb-3">
+                            <div class="col">
+                                <div class="display-6">
+                                    Somente o essencial
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <img src="assets/room3.jpg" alt="Econômico" class="shadow rounded img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dov>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
